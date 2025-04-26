@@ -52,20 +52,22 @@ const levels = [
   },
   {
     obstacles: [
-      { x: 100, y: 100, w: 20, h: 200 },
-      { x: 300, y: 100, w: 20, h: 200 },
-      { x: 500, y: 100, w: 20, h: 200 },
-      { x: 200, y: 300, w: 200, h: 20 }
-    ],
+        { x: 100, y: 50, w: 150, h: 10 },
+        { x: 300, y: 100, w: 200, h: 10 },
+        { x: 150, y: 200, w: 10, h: 150 },
+        { x: 400, y: 250, w: 10, h: 100 },
+        { x: 250, y: 350, w: 200, h: 10 }
+      ],
     coins: [
-      { x: 50, y: 50, collected: false },
+      { x: 50, y: 100, collected: false },
       { x: 150, y: 150, collected: false },
       { x: 250, y: 50, collected: false },
       { x: 350, y: 150, collected: false },
       { x: 450, y: 50, collected: false },
       { x: 550, y: 150, collected: false },
       { x: 150, y: 350, collected: false },
-      { x: 450, y: 350, collected: false }
+      { x: 450, y: 350, collected: false },
+      { x: 300, y: 250, collected: false }
     ]
   }
 ];

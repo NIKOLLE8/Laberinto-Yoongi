@@ -164,7 +164,7 @@ function draw() {
 
     for (let coin of level.coins) {
         if (!coin.collected) {
-            ctx.drawImage(coinImage, coin.x, coin.y, 25, 25);
+            ctx.drawImage(coinImage, coin.x, coin.y, 45, 40);
         }
     }
 
